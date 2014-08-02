@@ -25,7 +25,7 @@ body {
 	top:50%;
 	left:50%;
 	margin-top:-25px;
-	margin-left:-100px;
+	margin-left:-128px;
 	line-height:50px;
 	text-align:center;
 	/* border:1px solid rgb(141,153,154); */
@@ -35,4 +35,32 @@ body {
 	box-shadow:0 0 5px 0.5px white;/* rgb(166,226,46); */
 	z-index:999;
 	display:none;
+}
+.login {
+	position:absolute;
+	width:260px;
+	height:256px;
+	top:50%;
+	left:50%;
+	background-color:#97e365;
+	margin-top:-128px;
+	margin-left:-130px;
+	line-height:50px;
+	text-align:center;
+	/* border:1px solid rgb(141,153,154); */
+	font-size:22px;
+	color:white;/* rgb(141,153,154); */
+	border-radius:10px 10px 10px 10px;
+	box-shadow:0 0 5px 0.5px white;/* rgb(166,226,46); */
+	z-index:1000;
+	/* display:none; */
+}
+.login input {
+	border-radius:10px 10px 10px 10px;
+	border:1px solid white;
+	padding-left:20px;
+
+}
+.login input:focus {
+	outline:none;
 }
