@@ -1,5 +1,5 @@
 body {
-	background-color:rgb(237,240,241);
+	background-color:rgb(26,170,230);
 }
 /* #home-main-background {
 	position:absolute;
@@ -18,20 +18,21 @@ body {
 	border-radius:10px 10px 10px 10px;
 	z-index:1;
 } */
-#home-main {
+.home-main {
 	position:absolute;
-	width:200px;
-	height:48px;
+	width:256px;
+	height:50px;
 	top:50%;
 	left:50%;
-	margin-top:-24px;
+	margin-top:-25px;
 	margin-left:-100px;
-	line-height:48px;
+	line-height:50px;
 	text-align:center;
 	/* border:1px solid rgb(141,153,154); */
 	font-size:22px;
-	color:rgb(141,153,154);
+	color:white;/* rgb(141,153,154); */
 	border-radius:10px 10px 10px 10px;
-	box-shadow:0px 0px 5px 0.5px black;
+	box-shadow:0 0 5px 0.5px white;/* rgb(166,226,46); */
 	z-index:999;
+	display:none;
 }

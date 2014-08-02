@@ -26,9 +26,9 @@ require.config({
 /**
  * [前端js代码中央控制台，所有的前端代码都在这里集中调用]
  */
-require(['jquery', 'index'], function(jquery, ryan) {
+require(['jquery', 'index'], function(jquery, index) {
 	
-	ryan.index_instance.test();    //主页
+	index.index_instance.init();    //主页
 
 	    //page1
 	
